@@ -1345,7 +1345,7 @@
 }
 
 .L10_block {
-  max-width: 600px;
+  max-width: 465px;
 }
 
 /*EXTRASSSSS   */
@@ -1437,9 +1437,22 @@
   padding: 30px
 }
 
+.joinHeading {
+  font-size: 80px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
 
 @media only screen and (max-width:500px) {
   .newsHeading {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 30px;
+    text-align: center;
+  }
+  .joinHeading {
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 30px;

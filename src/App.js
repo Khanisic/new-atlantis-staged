@@ -191,7 +191,7 @@ function App() {
                         <div id="Join_9" className='L9_inner'>
 
                               <div>
-                                    <div className='L9_div_text' ><a className='L9_links' href='#'>Join the New Atlantis Mission</a></div>
+                              <h1 className='joinHeading' >Join the New Atlantis Mission</h1>
 
                                     <div className='L9_div_2'><a className='L9_links_2' href='#'>Explore open positions, internships, and collaboration opportunities.</a></div>
 
@@ -260,7 +260,7 @@ function App() {
                         <div id="L_10" className='L10_inner'>
 
                               {/* <div style={{ fontSize: "80px", fontWeight: "300", marginBottom: "30px", padding: "30px" }}><span className='L10_h'>Highlighted news</span></div> */}
-                              
+
                               <h1 className='newsHeading' >Highlighted News</h1>
                               <div className='L10_inner_inner'>
 
