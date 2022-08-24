@@ -1,0 +1,223 @@
+.Container11{
+
+     background-color: transparent;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 95%;
+     margin-left: auto;
+     margin-right: auto;
+    
+     position: relative;
+     top: 40px;
+
+}
+
+
+.OtherDiv{
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+}
+
+
+
+.Nav_logo{
+
+    width: 222px;
+}
+
+.Btn1{
+      
+      border: 1px solid #fddf16;
+      border-radius: 30px;
+      color: #fddf16;
+   
+      background-color: transparent;
+      font-size: 19px;
+      padding: 7px;
+      min-width: 117px;
+
+}
+
+.Btn1:hover{
+
+     background-color: #fddf16;
+     color: white;
+}
+
+
+.Btn2{
+      
+    border: 1px solid #4ec0fb;
+    border-radius: 30px;
+    color: white;
+ 
+    background-color: #4ec0fb;
+    font-size: 19px;
+    padding: 7px;
+    min-width: 117px;
+
+}
+
+.Btn2:hover{
+
+    border: 1px solid #4ec0fb;
+    color: #4ec0fb;
+    background-color: transparent;
+}
+
+
+
+
+.Nav_links{
+
+    font-size: 19px;
+    color: #4ec0fb;
+    text-decoration: none;
+
+}
+
+.Nav_links:hover{
+
+     color: white;
+}
+
+
+
+
+#Nav_icon{
+
+     color: white;
+     font-size: 30px;
+     display: none;
+}
+
+
+
+
+
+#menuID{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+
+
+
+    .Container11{
+
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+       
+        position: relative;
+        top: 40px;
+   
+   }
+   
+   
+   .OtherDiv{
+   
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         gap: 20px;
+   }
+   
+   
+   
+   .Nav_logo{
+   
+       width: 170px;
+   }
+   
+
+   #menuID{
+
+     display: none;
+   }
+   
+   
+   
+   
+   #Nav_icon{
+
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+
+    #Nav_icon{
+
+        color: white;
+        font-size: 30px;
+        display: block;
+    }
+
+   
+    #Nav_icon:hover{
+
+       color: black;
+    }
+
+
+
+    .Nav_links{
+
+        margin-bottom: 30px;
+    }
+
+    .Btn1{
+
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+  
+  }
+
+
+
+
+
+
+
+
+
+
+  .Btn1_in{
+
+    text-decoration: none;
+    color: #fddf16;
+    font-size: 16px;
+  }
+
+
+  .Btn1_in:hover{
+
+    color: white;
+
+  }

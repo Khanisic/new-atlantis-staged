@@ -1,0 +1,243 @@
+.Container1{
+
+      color: white;
+      width: 95%;
+      margin-left: auto;
+     margin-right: auto;
+
+     position: relative;
+     bottom: 0px;
+   
+}
+
+
+.Lower1{
+
+     margin-right: auto;
+     margin-left: auto;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 35px;
+     margin-top: 20px;
+
+}
+
+
+.Lower2{
+
+
+     margin-left: auto;
+     margin-right: auto;
+     width: 95%;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+
+.Footerlogo{
+
+      width: 195px;
+}
+
+
+.LowerLinks{
+
+     text-decoration: none;
+     color: white;
+     margin-bottom: 3px;
+}
+
+.LowerLinks:hover{
+
+      color: #4ec0fb;
+}
+
+
+.Lower2_inner{
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 70px;
+
+      margin-bottom: 40px;
+}
+
+
+.Lower2_inner0{
+
+      width: 100%;
+      margin-bottom: 40px;
+      margin-top: 45px;
+}
+
+
+.Lower3_inner{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 20px;
+
+    width: 65%;
+}
+
+
+.Btn4{
+      
+    border: 1px solid #4ec0fb;
+    border-radius: 30px;
+    color: #4ec0fb;
+ 
+    background-color: transparent;
+    font-size: 19px;
+    padding: 7px;
+    min-width: 90px;
+
+}
+
+.Btn4:hover{
+
+   background-color: #4ec0fb;
+   color: white;
+}
+
+
+.Input4{
+
+      padding: 10px;
+      border-radius: 30px;
+      outline: none;
+      border: 1px solid #fddf16;
+}
+
+.Input4:hover{
+
+    border: 3px solid #fddf16;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE RESPONSIVE!!*/   
+
+
+
+@media only screen and (max-width:500px) {
+      /* For mobile phones: */
+
+
+
+      .Container1{
+
+            color: white;
+            width: 95%;
+         
+      }
+      
+      
+      .Lower1{
+      
+           margin-right: auto;
+           margin-left: auto;
+           width: 88%;
+
+      }
+      
+      
+      .Lower2{
+      
+           display: block;
+
+      }
+      
+      
+      .Footerlogo{
+      
+            width: 195px;
+      }
+      
+      
+      
+      .Lower2_inner{
+      
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 30px;
+      
+            margin-bottom: 40px;
+      }
+      
+      
+      .Lower2_inner0{
+      
+            width: 100%;
+            margin-bottom: 40px;
+            margin-top: 45px;
+      }
+      
+      
+      .Lower3_inner{
+      
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      
+          margin-top: 20px;
+          width: 65%;
+      }
+      
+      
+      .Btn4{
+            
+          border: 1px solid #4ec0fb;
+          border-radius: 30px;
+          color: #4ec0fb;
+       
+          background-color: transparent;
+          font-size: 19px;
+          padding: 7px;
+          min-width: 90px;
+      
+      }
+      
+      
+      .Input4{
+      
+            padding: 10px;
+            border-radius: 30px;
+            outline: none;
+            border: 1px solid #fddf16;
+      }
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+      
+
+}
