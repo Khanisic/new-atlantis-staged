@@ -195,7 +195,7 @@ function App() {
 
                                     <div className='L9_div_2'><a className='L9_links_2' href='#'>Explore open positions, internships, and collaboration opportunities.</a></div>
 
-                                    <div><button className='L9_Btn'>Join our discord</button></div>
+                                    <div className='discordOuter' ><button className='L9_Btn'>Join our discord</button></div>
 
                               </div>
 
