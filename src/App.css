@@ -653,7 +653,10 @@
 
   color: #032f50;
 
-  padding: 45px;
+  padding: 45px 0;
+
+  text-align: center;
+    margin: auto;
 }
 
 
@@ -1432,7 +1435,9 @@
   font-size: 80px;
   font-weight: 300;
   margin-bottom: 30px;
-  padding: 30px
+  padding: 30px;
+  text-align: center;
+  margin: auto;
 }
 
 .joinHeading {
