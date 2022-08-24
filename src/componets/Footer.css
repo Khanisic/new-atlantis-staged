@@ -1,63 +1,63 @@
-.Container1{
+.Container1 {
 
       color: white;
       width: 95%;
       margin-left: auto;
-     margin-right: auto;
+      margin-right: auto;
 
-     position: relative;
-     bottom: 0px;
-   
-}
-
-
-.Lower1{
-
-     margin-right: auto;
-     margin-left: auto;
-
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-bottom: 35px;
-     margin-top: 20px;
+      position: relative;
+      bottom: 0px;
 
 }
 
 
-.Lower2{
+.Lower1 {
 
+      margin-right: auto;
+      margin-left: auto;
 
-     margin-left: auto;
-     margin-right: auto;
-     width: 95%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 35px;
+      margin-top: 20px;
 
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
 }
 
 
-.Footerlogo{
+.Lower2 {
 
-      width: 195px;
+
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 }
 
 
-.LowerLinks{
+.Footerlogo {
 
-     text-decoration: none;
-     color: white;
-     margin-bottom: 3px;
+      height: 100%;
 }
 
-.LowerLinks:hover{
+
+.LowerLinks {
+
+      text-decoration: none;
+      color: white;
+      margin-bottom: 3px;
+}
+
+.LowerLinks:hover {
 
       color: #4ec0fb;
 }
 
 
-.Lower2_inner{
+.Lower2_inner {
 
       display: flex;
       justify-content: flex-start;
@@ -68,47 +68,50 @@
 }
 
 
-.Lower2_inner0{
+.Lower2_inner0 {
 
       width: 100%;
       margin-bottom: 40px;
       margin-top: 45px;
+      height: 35px;
+      display: flex;
+      gap: 6px;
 }
 
 
-.Lower3_inner{
+.Lower3_inner {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-    margin-top: 20px;
+      margin-top: 20px;
 
-    width: 65%;
+      width: 65%;
 }
 
 
-.Btn4{
-      
-    border: 1px solid #4ec0fb;
-    border-radius: 30px;
-    color: #4ec0fb;
- 
-    background-color: transparent;
-    font-size: 19px;
-    padding: 7px;
-    min-width: 90px;
+.Btn4 {
+
+      border: 1px solid #4ec0fb;
+      border-radius: 30px;
+      color: #4ec0fb;
+
+      background-color: transparent;
+      font-size: 19px;
+      padding: 7px;
+      min-width: 90px;
 
 }
 
-.Btn4:hover{
+.Btn4:hover {
 
-   background-color: #4ec0fb;
-   color: white;
+      background-color: #4ec0fb;
+      color: white;
 }
 
 
-.Input4{
+.Input4 {
 
       padding: 10px;
       border-radius: 30px;
@@ -116,9 +119,9 @@
       border: 1px solid #fddf16;
 }
 
-.Input4:hover{
+.Input4:hover {
 
-    border: 3px solid #fddf16;
+      border: 3px solid #fddf16;
 }
 
 
@@ -134,7 +137,7 @@
 
 
 
-/* MOBILE RESPONSIVE!!*/   
+/* MOBILE RESPONSIVE!!*/
 
 
 
@@ -143,91 +146,88 @@
 
 
 
-      .Container1{
+      .Container1 {
 
             color: white;
             width: 95%;
-         
-      }
-      
-      
-      .Lower1{
-      
-           margin-right: auto;
-           margin-left: auto;
-           width: 88%;
 
       }
-      
-      
-      .Lower2{
-      
-           display: block;
+
+
+      .Lower1 {
+
+            margin-right: auto;
+            margin-left: auto;
+            width: 88%;
 
       }
-      
-      
-      .Footerlogo{
-      
+
+
+      .Lower2 {
+
+            display: block;
+
+      }
+
+
+      .Footerlogo {
+
             width: 195px;
       }
-      
-      
-      
-      .Lower2_inner{
-      
+
+
+
+      .Lower2_inner {
+
             display: flex;
             justify-content: flex-start;
             align-items: center;
             gap: 30px;
-      
+
             margin-bottom: 40px;
       }
-      
-      
-      .Lower2_inner0{
-      
+
+
+      .Lower2_inner0 {
+
             width: 100%;
             margin-bottom: 40px;
             margin-top: 45px;
       }
-      
-      
-      .Lower3_inner{
-      
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-      
-          margin-top: 20px;
-          width: 65%;
+
+
+      .Lower3_inner {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            margin-top: 20px;
+            width: 65%;
       }
-      
-      
-      .Btn4{
-            
-          border: 1px solid #4ec0fb;
-          border-radius: 30px;
-          color: #4ec0fb;
-       
-          background-color: transparent;
-          font-size: 19px;
-          padding: 7px;
-          min-width: 90px;
-      
+
+
+      .Btn4 {
+
+            border: 1px solid #4ec0fb;
+            border-radius: 30px;
+            color: #4ec0fb;
+
+            background-color: transparent;
+            font-size: 19px;
+            padding: 7px;
+            min-width: 90px;
+
       }
-      
-      
-      .Input4{
-      
+
+
+      .Input4 {
+
             padding: 10px;
             border-radius: 30px;
             outline: none;
             border: 1px solid #fddf16;
       }
-      
-      
-      
 
 
 
@@ -238,6 +238,9 @@
 
 
 
-      
+
+
+
+
 
 }

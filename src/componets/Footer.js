@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
-import Footerlogo from './mainLogo_white.png';
+import Footerlogo1 from './black1.png';
+import Footerlogo2 from './black2.png';
 import './Footer.css';
 
 
@@ -13,7 +14,8 @@ export default class Footer extends PureComponent {
                 
                    <div>
                         <div className='Lower2_inner0'>
-                            <img src={Footerlogo} className="Footerlogo" alt="logo" />
+                            <img src={Footerlogo1} className="Footerlogo" alt="logo" />
+                            <img  src={Footerlogo2} className="Footerlogo" alt="logo" />
                         </div>
                         <div className='Lower2_inner'  style={{zIndex:"3"}}>
                                <div>  

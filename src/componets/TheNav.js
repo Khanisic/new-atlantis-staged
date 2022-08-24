@@ -1,72 +1,59 @@
-import React, { PureComponent } from 'react'
+import React, { useState } from 'react'
 import './TheNav.css';
-import Navlogo from './mainLogo.png';
+import Navlogo from './logo.png';
+import xmark from './xmark.svg'
 
+function TheNav() {
 
+  const [showNav, setShowNav] = useState(false)
 
-export default class TheNav extends PureComponent {
+  const ToggleSwitch = () => {
 
-
-
-
-  render() {
-
-
-    const ToggleSwitch = () => {
-  
-      var x = document.getElementById("menuID");
-      if (x.style.display === "none") {
-
-
-        x.style.display = "initial";
-        x.style.position = "fixed";
-        x.style.right = "50px";
-        x.style.top = "60px";
-        x.style.backgroundColor = "black";
-        x.style.padding = "40px";
-        x.style.borderRadius = "30px";
-
-
-      } else {
-
-
-        x.style.display = "none";
-        x.style.position = "fixed";
-        x.style.right = "50px";
-        x.style.top = "60px";
-
-
-      }
-    
-    
-  }  
-
-
-    return (
-      <div className='Container11'  style={{zIndex:"3"}}>          
-
-          <div className='NavLogoDiv'>
-              <a href="#home" class="active"><img src={Navlogo} className="Nav_logo" alt="logo" /></a>
-          </div>
-
-          <div className='OtherDiv'>
-
-            <span id='menuID'>
-
-               <div><a className='Nav_links' href='#L_8'>Projects</a></div>
-               <div ><a href='#' className='Nav_links'>About Us</a></div>
-               <div><a  className='Nav_links' href='#L_10'>Publications</a></div>
-
-               <div><button className='Btn1'><a href='#Join_9' className='Btn1_in'>Collaborate</a></button></div>
-
-           </span>
-
-           <div><i id='Nav_icon' class="fa fa-bars" onClick={ToggleSwitch} ></i></div>
-
-          </div>
-           
-        
-      </div>
-    )
   }
+
+  return (
+    <div className='Container11' style={{ zIndex: "3" }}>
+
+      <div className='NavLogoDiv'>
+        <a href="#home" class="active"><img src={Navlogo} className="Nav_logo" alt="logo" /></a>
+      </div>
+
+      <div className='OtherDiv'>
+
+        <span id='menuID'>
+          <div><a className='Nav_links' href='#L_8'>Projects</a></div>
+          <div ><a href='#' className='Nav_links'>About Us</a></div>
+          <div><a className='Nav_links' href='#L_10'>Publications</a></div>
+
+          <div><button className='Btn1'><a href='#Join_9' className='Btn1_in'>Collaborate</a></button></div>
+        </span>
+
+        <div>
+          {
+            !showNav &&
+            <i id='Nav_icon' class="fa fa-bars" onClick={() => { setShowNav(true) }} ></i>
+          }
+        </div>
+
+      </div>
+
+      {
+        showNav &&
+        <div className='mobileNav'>
+          <img src={xmark} onClick={() => { setShowNav(false) }} className='xmark' fill="white"></img>
+          <div className='mobileNav_inner'>
+
+            <div onClick={() => { setShowNav(false) }}><a className='Nav_links' href='#L_8'>Projects</a></div>
+            <div onClick={() => { setShowNav(false) }} ><a href='#' className='Nav_links'>About Us</a></div>
+            <div onClick={() => { setShowNav(false) }}><a className='Nav_links' href='#L_10'>Publications</a></div>
+            <div onClick={() => { setShowNav(false) }}><button className='Btn1'><a href='#Join_9' className='Btn1_in'>Collaborate</a></button></div>
+
+          </div>
+        </div>
+      }
+
+    </div >
+  )
 }
+
+export default TheNav

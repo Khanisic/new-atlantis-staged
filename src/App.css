@@ -144,8 +144,6 @@
 
 
 
-
-
 .BigText {
 
   font-size: 75px;
@@ -155,6 +153,9 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(145deg, #62f58a, #2352dc);
 }
 
 
@@ -503,6 +504,7 @@
   justify-content: left;
   align-items: center;
   width: 290px;
+
 }
 
 
@@ -543,8 +545,77 @@
   box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
   display: flex;
   justify-content: center;
-  width: 270px;
+  width: 300px;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.fadeBlack {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  height: 100%;
+  border-radius: 30px;
+  opacity: 0;
+}
+
+.L8_block_new:hover .fadeBlack {
+  animation-name: fadeBlack;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+.L8_block_new:hover .L8_text_anchor {
+  animation-name: anchorText;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+.L8_block_new:hover .animate-text {
+  opacity: 0;
+  animation-name: textAnim;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+.animate-text {
+  color: white;
+  opacity: 0;
+  padding: 0 10px;
+}
+
+@keyframes fadeBlack {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.2;
+  }
+}
+
+@keyframes anchorText {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-80px);
+  }
+}
+
+@keyframes textAnim {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(80px);
+  }
 }
 
 .L8_text_anchor {
@@ -856,6 +927,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 
@@ -943,8 +1015,19 @@
     font-size: 20px;
   }
 
+  .L10_inner_inner {
+    justify-content: center;
+    align-items: center;
+  }
 
-
+  .L10_block {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
 
   .BigText3 {
@@ -1253,7 +1336,7 @@
 @media only screen and (max-width:400px) {
 
   .TeamPic {
-    width: 240px;
+    width: 100%;
   }
 
 

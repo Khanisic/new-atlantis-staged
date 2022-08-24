@@ -163,14 +163,20 @@ function App() {
 
 
                         <div className='L8_block_container'>
-                              <div className='L8_block_new' id="L8_Block_1">    
-                                          <a className='L8_text_anchor' href='#'>Science <br />  Initiative</a>
+                              <div className='L8_block_new' id="L8_Block_1">
+                                    <div className='fadeBlack'></div>
+                                    <a className='L8_text_anchor' href='https://github.com/newatlantisdao'>Science <br />  Initiative</a>
+                                    <p className='animate-text'>We're pioneering a new meta-genomics pipeline to baseline the productivity of the waters in sensitive Marine Protected Areas, and to measure change over time. Visit our Github to learn more. </p>
                               </div>
                               <div className='L8_block_new' id="L8_Block_2">
-                                          <a className='L8_text_anchor' href='#'>Carbon <br /> Initiatives</a>
+                                    <div className='fadeBlack'></div>
+                                    <a className='L8_text_anchor' href='#'>Biodiversity <br /> Initiatives</a>
+                                    <p className='animate-text'>We're working with partners to create standards for a new biodiversity credit market for Marine Protected Areas to utilize This will fund critically needed protection and restoration efforts which will improve productivity, creating more credits, starting a virtuous cycle.</p>
                               </div>
                               <div className='L8_block_new' id="L8_Block_3">
-                                          <a className='L8_text_anchor' href='#'>Ground <br /> MPA</a>
+                                    <div className='fadeBlack'></div>
+                                    <a className='L8_text_anchor' href='#'>Blockchain <br /> Initiatives</a>
+                                    <p className='animate-text'>Using the power of the blockchain, we're opening our data for scientific research and to help to provide liquidity for MPA's future biodiversity credits.</p>
                               </div>
                         </div>
                   </div>
@@ -231,15 +237,6 @@ function App() {
 
                                     </div>
 
-
-
-                              </div>
-
-
-
-
-                              <div className='T_row'>
-
                                     <div className='Team_member_box'>
 
                                           <div className='T_name'>Stanley Bishop</div>
@@ -249,64 +246,8 @@ function App() {
                                     </div>
 
 
-                                    <div className='Team_member_box'>
-
-                                          <div className='T_name'>JJ Ramberg</div>
-                                          <div className='T_profile' id="T_profile_2"></div>
-                                          <div className='T_title'>GoodPods, MSNBC</div>
-
-                                    </div>
-
-
-                                    <div className='Team_member_box'>
-
-                                          <div className='T_name'>Ryan Scott</div>
-                                          <div className='T_profile' id="T_profile_3"></div>
-                                          <div className='T_title'>Founder NetCreations (IPO), Causecast (acq)</div>
-
-                                    </div>
-
-
 
                               </div>
-
-
-
-
-                              <div className='T_row'>
-
-                                    <div className='Team_member_box'>
-
-                                          <div className='T_name'>Justin Alanís</div>
-                                          <div className='T_profile' id="T_profile_1"></div>
-                                          <div className='T_title'>Story DAO, Seed Club 4x Founder (acq)</div>
-
-                                    </div>
-
-
-                                    <div className='Team_member_box'>
-
-                                          <div className='T_name'>Stanley Bishop</div>
-                                          <div className='T_profile' id="T_profile_4"></div>
-                                          <div className='T_title'>LabDAO core dev, DeepChem ML core dev</div>
-
-                                    </div>
-
-
-                                    <div className='Team_member_box'>
-
-                                          <div className='T_name'>Ryan Scott</div>
-                                          <div className='T_profile' id="T_profile_3"></div>
-                                          <div className='T_title'>Founder NetCreations (IPO), Causecast (acq)</div>
-
-                                    </div>
-
-
-
-                              </div>
-
-
-
 
                         </div>
 
