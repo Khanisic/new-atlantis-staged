@@ -259,8 +259,9 @@ function App() {
 
                         <div id="L_10" className='L10_inner'>
 
-                              <div style={{ fontSize: "80px", fontWeight: "300", marginBottom: "30px", padding: "30px" }}><span className='L10_h'>Highlighted news</span></div>
-
+                              {/* <div style={{ fontSize: "80px", fontWeight: "300", marginBottom: "30px", padding: "30px" }}><span className='L10_h'>Highlighted news</span></div> */}
+                              
+                              <h1 className='newsHeading' >Highlighted News</h1>
                               <div className='L10_inner_inner'>
 
                                     <div className='L10_block'>

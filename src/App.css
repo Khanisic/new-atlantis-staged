@@ -1139,7 +1139,9 @@
 
 
   .BigText10 {
-
+    font-size: 33px;
+    text-align: center;
+    margin: auto;
     font-size: 33px;
   }
 
@@ -1415,7 +1417,10 @@
 }
 
 .L9_links_2 {
-
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
   color: black;
   text-decoration: none;
 
@@ -1425,6 +1430,24 @@
   cursor: pointer;
 }
 
+.newsHeading {
+  font-size: 80px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  padding: 30px
+}
+
+
+@media only screen and (max-width:500px) {
+  .newsHeading {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+}
 
 /*
 
