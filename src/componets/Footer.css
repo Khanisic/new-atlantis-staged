@@ -170,12 +170,6 @@
       }
 
 
-      .Footerlogo {
-
-            width: 195px;
-      }
-
-
 
       .Lower2_inner {
 
@@ -193,6 +187,7 @@
             width: 100%;
             margin-bottom: 40px;
             margin-top: 45px;
+            height: 35px;
       }
 
 
