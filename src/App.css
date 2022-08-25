@@ -55,10 +55,7 @@
   background-color: white;
   color: black;
 
-  padding-top: 70px;
-  padding-bottom: 70px;
-
-
+  height: 100vh;
 }
 
 
@@ -82,22 +79,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-
-  padding: 130px 0;
-
   background-image: url("marine1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
   background-color: #032f50;
-
-
-
+  height: 100vh;
 }
 
 
+.visitOurGithub {
+  text-decoration: none;
+  color: #017ec6;
+  background: white;
+  padding: 5px 9px;
+  border-radius: 16px;
+  position: relative;
+  top: 10px;
+}
 
+.discordButton {
+  color: #4ec0fb;
+  text-decoration: none;
+}
+
+.L9_Btn:hover .discordButton {
+  color: #fff;
+  text-decoration: none;
+}
 
 /* .Landing4:hover{
 
@@ -159,7 +167,11 @@
   margin-right: auto;
 }
 
-
+.teamHeading {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 30px;
+}
 
 
 .BtnDiv {
@@ -454,11 +466,13 @@
   background-image: url("backgroundFirst.svg");
   background-repeat: no-repeat;
   background-size: cover;
-
-
   background-color: #4ec0fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 
-  padding-bottom: 50px;
 
 }
 
@@ -635,17 +649,12 @@
 
 .BigText10 {
 
-
   font-size: 60px;
   font-weight: 500;
   width: 70%;
-
   color: #032f50;
-
-  padding: 45px 0;
-
   text-align: center;
-    margin: auto;
+  margin: 0 auto;
 }
 
 
@@ -886,6 +895,7 @@
   font-weight: 600;
   color: #fddf16;
   padding: 3px;
+  font-size: 20px;
 }
 
 .T_title {
@@ -921,41 +931,6 @@
 }
 
 
-
-#T_profile_1 {
-
-  background-image: url("Team_Member_1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-
-#T_profile_2 {
-
-  background-image: url("Team_Member_2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-
-#T_profile_3 {
-
-  background-image: url("Team_Member_3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-
-#T_profile_4 {
-
-  background-image: url("Team_Member_4.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
 
 
 
@@ -1444,6 +1419,7 @@
     padding: 30px;
     text-align: center;
   }
+
   .joinHeading {
     font-size: 40px;
     font-weight: 500;
@@ -1451,14 +1427,15 @@
     padding: 30px;
     text-align: center;
   }
-  
+
 }
 
-.discordOuter{
+.discordOuter {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /*
 
 .App {

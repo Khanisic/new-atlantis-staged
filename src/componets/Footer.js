@@ -17,7 +17,7 @@ export default class Footer extends PureComponent {
                             <img src={Footerlogo1} className="Footerlogo" alt="logo" />
                             <img  src={Footerlogo2} className="Footerlogo" alt="logo" />
                         </div>
-                        <div className='Lower2_inner'  style={{zIndex:"3"}}>
+                        {/* <div className='Lower2_inner'  style={{zIndex:"3"}}>
                                <div>  
                                     <div><a href="#" className='LowerLinks' style={{fontWeight:"700"}}>Foundation</a></div>
                                     <div><a href="#" className='LowerLinks'>About Us</a></div>
@@ -46,10 +46,10 @@ export default class Footer extends PureComponent {
                                </div>
 
 
-                        </div>
+                        </div> */}
                   </div>
 
-                  <div   style={{zIndex:"3"}}>
+                  <div   style={{zIndex:"3", paddingTop: "2rem"}}>
 
                          <div style={{fontSize:"27px", width:"55%", fontWeight:"600", marginBottom:"20px"}}>Stay up to date Join our newsletter</div>
 
@@ -62,7 +62,7 @@ export default class Footer extends PureComponent {
                                  
                               <div><a href='https://twitter.com/newatlantisdao'><i class="fa fa-twitter" style={{fontSize:"25px", padding:"7px", color:"white"}} aria-hidden="true"></i></a></div>
 
-                              <div><a href='#'><i class="fa fa-discord-alt" style={{fontSize:"25px", padding:"7px", color:"white"}} aria-hidden="true"></i></a></div>
+                              <div><a href='https://discord.com/invite/newatlantis'><i class="fa fa-discord-alt" style={{fontSize:"25px", padding:"7px", color:"white"}} aria-hidden="true"></i></a></div>
 
 
                          </div>
