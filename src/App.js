@@ -27,6 +27,7 @@ import jy from './assets/JY.jpg'
 
 import NewsPic from './News_1.jpg';
 import './App.css';
+import Scroller from './componets/Scroller.js';
 
 
 function App() {
@@ -37,9 +38,9 @@ function App() {
 
                         <TheNav></TheNav>
 
-                        <h1 className='BigText'>Open Platform for Ocean Biodiversity Conservation</h1>
+                        <h1 className='BigText'>Open Platform for Ocean Biodiversity Regeneration</h1>
 
-                        <h2 className='BigText2'>Science, Technology, and Financial Infrastructure <br /> to Restore Our Environment</h2>
+                        <h2 className='BigText2'>Science, Technology, and Financial Infrastructure <br /> to Restore Our Marine Environment</h2>
 
 
 
@@ -56,91 +57,10 @@ function App() {
 
                   </div>
 
-
-
-
-
-
-                  <div className='Landing5'>
-
-                        <div className='s5_nav'>
-                              <div className='smallest_text' style={{ fontWeight: "700", color: "white" }}>Challenges</div>
-                              <div><a className='part_Links' href='#Part1'>Funding</a></div>
-                              <div><a className='part_Links' href='#Part2'>Measurement</a></div>
-                              <div><a className='part_Links' href='#Part3'>Restoration</a></div>
-
-                        </div>
-
-
-                        <div className='scrolll'>
-
-                              <div id="Part1" className='Parts' style={{ flexGrow: "1" }}>
-
-                                    <div className='part_div5_1'>
-                                          <div className='BigText7'>Funding</div>
-
-                                          <div className='BigText8'>By developing the blue carbon and ecosystem service economy, we unlock
-                                                massive amounts of funding for MPAs. By selling NFTs, we join together to
-                                                kick start the process and participate in the solution</div>
-
-                                    </div>
-
-                                    <div className='part_div5_2'>
-                                          <img src={s5} className="Sec5_Img" alt="Just_A_Pic" />
-
-                                    </div>
-
-                              </div>
-
-
-
-                              <div id="Part2" className='Parts' style={{ flexGrow: "1" }}>
-
-                                    <div className='part_div5_1'>
-                                          <div className='BigText7'>Measurement</div>
-
-                                          <div className='BigText8'>MPAs need funding and technology to measure their change over time. New
-                                                Atlantis is pioneering new technologies to measure the ocean metagenome
-                                                using inexpensive hardware and AI.</div>
-
-                                    </div>
-
-                                    <div className='part_div5_2'>
-                                          <img src={s52} className="Sec5_Img" alt="Just_A_Pic" />
-
-                                    </div>
-
-                              </div>
-
-
-                              <div id="Part3" className='Parts' style={{ flexGrow: "1" }}>
-
-                                    <div className='part_div5_1'>
-                                          <div className='BigText7'>Restoration</div>
-
-                                          <div className='BigText8'>Our work funds fish nursery protection, pollution remediation, coral
-                                                restoration, and coastline mangrove replanting, and programming to teach
-                                                locals sustainable management of this critical resource.</div>
-
-                                    </div>
-
-                                    <div className='part_div5_2'>
-                                          <img src={s53} className="Sec5_Img" alt="Just_A_Pic" />
-
-                                    </div>
-
-                              </div>
-
-
-                        </div>
-                  </div>
-
-
-
-
+                  <Scroller />
                   <div className='Landing3'>
 
-                        <h2 className='BigText4'>New Atlantis uses <span style={{ color: "#4ec0fb" }}>AI</span>, <span style={{ color: "#4ec0fb" }}>IoT</span>, <span style={{ color: "#4ec0fb" }}>NFTs</span> and <span style={{ color: "#4ec0fb" }}>crowdfunding</span> to protect and restore Marine Protected Areas.</h2>
+                        <h2 className='BigText4'>New Atlantis uses <span style={{ color: "#4ec0fb" }}>advanced science, AI</span>, <span style={{ color: "#4ec0fb" }}>IoT</span>, <span style={{ color: "#4ec0fb" }}>NFTs</span> and <span style={{ color: "#4ec0fb" }}>crowdfunding</span> to protect and restore Marine Protected Areas.</h2>
 
                   </div>
 
@@ -180,7 +100,7 @@ function App() {
 
                   <div id="L_8" className='Landing8'>
 
-                        <div  className='BigText10'>Our Initiatives Towards Ocean Conservation</div>
+                        <div className='BigText10'>Our Initiatives Towards Ocean Conservation</div>
 
 
                         <div className='L8_block_container'>
@@ -209,22 +129,7 @@ function App() {
                   <div className='Landing9'>
 
 
-                        <div id="Join_9" className='L9_inner'>
 
-                              <div>
-                                    <h1 className='joinHeading' >Join the New Atlantis Mission</h1>
-
-                                    <div className='L9_div_2'><a className='L9_links_2' href='#'>Explore open positions, internships, and collaboration opportunities.</a></div>
-
-                                    <div className='discordOuter' ><button className='L9_Btn'> <a className='discordButton' href="https://discord.com/invite/newatlantis">Join our discord</a> </button></div>
-
-                              </div>
-
-
-
-
-
-                        </div>
 
                         <div className='Team_All'>
                               <h4 className='teamHeading'>
@@ -266,12 +171,6 @@ function App() {
                                           <img className='T_profile' src={jj}></img>
                                           <div className='T_title'>GoodPods</div>
                                           <div className='T_subtitle'>MSNBC</div>
-                                    </div>
-                                    <div className='Team_member_box'>
-                                          <div className='T_name'>Adam Kulick</div>
-                                          <img className='T_profile' src={ja}></img>
-                                          <div className='T_title'>Orchard Capital</div>
-                                          <div className='T_subtitle'>Partners</div>
                                     </div>
                                     <div className='Team_member_box'>
                                           <div className='T_name'>Paul Nicklen</div>
@@ -355,6 +254,16 @@ function App() {
 
                         </div>
 
+                        <div id="Join_9" className='L9_inner'>
+                              <div>
+                                    <h1 className='joinHeading' >Join the New Atlantis Mission</h1>
+
+                                    <div className='L9_div_2'><a className='L9_links_2' href='#'>Explore open positions, internships, and collaboration opportunities.</a></div>
+
+                                    <div className='discordOuter' ><button className='L9_Btn'> <a className='discordButton' href="https://discord.com/invite/newatlantis">Join our discord</a> </button></div>
+
+                              </div>
+                        </div>
                   </div>
 
 

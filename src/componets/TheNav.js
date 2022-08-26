@@ -21,8 +21,11 @@ function TheNav() {
       <div className='OtherDiv'>
 
         <span id='menuID'>
-          <div><a className='Nav_links' href='#L_8'>Projects</a></div>
+        <div><a href='https://twitter.com/newatlantisdao'><i class="fa fa-twitter" style={{fontSize:"25px", padding:"7px", color:"white"}} aria-hidden="true"></i></a></div>
+
+<div><a href='https://discord.com/invite/newatlantis'><i class="fa fa-discord-alt" style={{fontSize:"25px", padding:"7px", color:"white"}} aria-hidden="true"></i></a></div>
           <div ><a href='#' className='Nav_links'>About Us</a></div>
+          <div ><a href='#' className='Nav_links'>Gitcoin Grant</a></div>
           <div><a className='Nav_links' href='#L_10'>Publications</a></div>
 
           <div><button className='Btn1'><a href='#Join_9' className='Btn1_in'>Collaborate</a></button></div>
