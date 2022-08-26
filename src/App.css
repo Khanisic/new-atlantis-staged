@@ -921,15 +921,38 @@
 
 .T_row {
   gap: 20px;
-  display: flex;
-  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
 
+.T_row {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-evenly;
+}
 
 
+@media only screen and (max-width:1100px) {
+  .T_row {
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+  }
+}
 
+@media only screen and (max-width:700px) {
+  .T_row {
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .T_row {
+    grid-template-columns: auto;
+    justify-content: space-around;
+  }
+}
 
 
 
@@ -956,7 +979,13 @@
 
 /* MOBILE RESPONSIVE!!*/
 
-
+.Landing92{
+  background: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media only screen and (max-width:500px) {
   /* For mobile phones: */

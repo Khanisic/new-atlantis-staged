@@ -254,6 +254,10 @@ function App() {
 
                         </div>
 
+
+                  </div>
+
+                  <div className='Landing92'>
                         <div id="Join_9" className='L9_inner'>
                               <div>
                                     <h1 className='joinHeading' >Join the New Atlantis Mission</h1>
