@@ -20,7 +20,7 @@ import jr from './assets/JR.png'
 import ph from './assets/PH.png'
 import er from './assets/ER.png'
 import oa from './assets/OA.png'
-
+import rs from './assets/RS.png'
 import tl from './assets/TL.jpg'
 import jy from './assets/JY.jpg'
 
@@ -150,7 +150,7 @@ function App() {
                                     </div>
                                     <div className='Team_member_box'>
                                           <div className='T_name'>Ryan Scott</div>
-                                          <img className='T_profile' src={ja}></img>
+                                          <img className='T_profile' src={rs}></img>
                                           <div className='T_title'>Story DAO, Seed Club</div>
                                           <div className='T_subtitle'>4x Founder (acq)</div>
                                     </div>
