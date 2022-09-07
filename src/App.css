@@ -883,12 +883,16 @@
   width: 200px;
   height: 250px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 
 }
 
 
 .T_name {
-
+  width: max-content;
   font-weight: 600;
   color: black;
   padding: 3px;

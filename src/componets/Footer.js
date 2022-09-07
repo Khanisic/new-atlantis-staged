@@ -6,18 +6,18 @@ import './Footer.css';
 
 
 export default class Footer extends PureComponent {
-  render() {
-    return (
-      <div className='Container1'  style={{zIndex:"3"}}>      
+     render() {
+          return (
+               <div className='Container1' style={{ zIndex: "3" }}>
 
-         <div className='Lower2'>
-                
-                   <div>
-                        <div className='Lower2_inner0'>
-                            <img src={Footerlogo1} className="Footerlogo" alt="logo" />
-                            <img  src={Footerlogo2} className="Footerlogo" alt="logo" />
-                        </div>
-                        {/* <div className='Lower2_inner'  style={{zIndex:"3"}}>
+                    <div className='Lower2'>
+
+                         <div>
+                              <div className='Lower2_inner0'>
+                                   <img src={Footerlogo1} className="Footerlogo" alt="logo" />
+                                   <img src={Footerlogo2} className="Footerlogo" alt="logo" />
+                              </div>
+                              {/* <div className='Lower2_inner'  style={{zIndex:"3"}}>
                                <div>  
                                     <div><a href="#" className='LowerLinks' style={{fontWeight:"700"}}>Foundation</a></div>
                                     <div><a href="#" className='LowerLinks'>About Us</a></div>
@@ -47,38 +47,38 @@ export default class Footer extends PureComponent {
 
 
                         </div> */}
-                  </div>
-
-                  <div   style={{zIndex:"3", paddingTop: "2rem"}}>
-
-                         <div style={{fontSize:"27px", width:"55%", fontWeight:"600", marginBottom:"20px"}}>Stay up to date Join our newsletter</div>
-
-                         <div>
-                              <input className='Input4' type="text" /> <button className='Btn4 BtnCursor'>Join</button>
                          </div>
 
-                         <div className='Lower3_inner'>
-                              <div style={{color:"#4ec0fb"}}>Dont miss a thing! Follow us:</div>
-                                 
-                              <div><a href='https://twitter.com/newatlantisdao'><i class="fa fa-twitter" style={{fontSize:"25px", padding:"7px", color:"white"}} aria-hidden="true"></i></a></div>
+                         <div style={{ zIndex: "3", paddingTop: "2rem" }}>
 
-                              <div><a href='https://discord.com/invite/newatlantis'><i class="fa fa-discord-alt" style={{fontSize:"25px", padding:"7px", color:"white"}} aria-hidden="true"></i></a></div>
+                              <div style={{ fontSize: "27px", width: "55%", fontWeight: "600", marginBottom: "20px" }}>Stay up to date Join our newsletter</div>
 
+                              <div>
+                                   <input className='Input4' type="text" /> <button className='Btn4 BtnCursor'>Join</button>
+                              </div>
+
+                              <div className='Lower3_inner'>
+                                   <div style={{ color: "#4ec0fb" }}>Dont miss a thing! Follow us:</div>
+
+                                   <div><a href='https://twitter.com/newatlantisdao'><i class="fa fa-twitter" style={{ fontSize: "25px", padding: "7px", color: "white" }} aria-hidden="true"></i></a></div>
+
+                                   <div><a href='https://discord.com/invite/newatlantis'><i class="fa fa-discord-alt" style={{ fontSize: "25px", padding: "7px", color: "white" }} aria-hidden="true"></i></a></div>
+                                   <div ><a href='https://gitcoin.co/grants/7126/new-atlantis-unlocking-marine-biodiversity-blue-c' className='Nav_links'>Gitcoin Grant</a></div>
+
+                              </div>
 
                          </div>
 
-                 </div>
-          
-          </div>    
-          
-              
-          <hr style={{width:"95%"}}/>
+                    </div>
 
-             <div className='Lower1'>
-                    <small>New Atlantis is focused on working to improve the world by restoring the ocean</small>
-             </div>
 
-      </div>
-    )
-  }
+                    <hr style={{ width: "95%" }} />
+
+                    <div className='Lower1'>
+                         <small>New Atlantis is focused on working to improve the world by restoring the ocean</small>
+                    </div>
+
+               </div>
+          )
+     }
 }

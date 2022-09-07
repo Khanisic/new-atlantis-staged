@@ -24,6 +24,11 @@ import rs from './assets/RS.png'
 import tl from './assets/TL.jpg'
 import jy from './assets/JY.jpg'
 
+import er2 from './assets/ER2.png'
+import gl from './assets/GL.png'
+import mw from './assets/MW.png'
+import ns from './assets/NS.png'
+import rs2 from './assets/RS2.png'
 
 import NewsPic from './News_1.jpg';
 import './App.css';
@@ -57,7 +62,7 @@ function App() {
 
                   </div>
 
-                  <Scroller />
+                  {/* <Scroller /> */}
                   <div className='Landing3'>
 
                         <h2 className='BigText4'>New Atlantis uses <span style={{ color: "#4ec0fb" }}>advanced science, AI</span>, <span style={{ color: "#4ec0fb" }}>IoT</span>, <span style={{ color: "#4ec0fb" }}>NFTs</span> and <span style={{ color: "#4ec0fb" }}>crowdfunding</span> to protect and restore Marine Protected Areas.</h2>
@@ -98,11 +103,8 @@ function App() {
 
 
 
-                  <div id="L_8" className='Landing8'>
-
+                  {/* <div id="L_8" className='Landing8'>
                         <div className='BigText10'>Our Initiatives Towards Ocean Conservation</div>
-
-
                         <div className='L8_block_container'>
                               <div className='L8_block_new' id="L8_Block_1">
                                     <div className='fadeBlack'></div>
@@ -120,7 +122,7 @@ function App() {
                                     <p className='animate-text'>Using the power of the blockchain, we're opening our data for scientific research and to help to provide liquidity for MPA's future biodiversity credits.</p>
                               </div>
                         </div>
-                  </div>
+                  </div> */}
 
 
 
@@ -133,27 +135,9 @@ function App() {
 
                         <div className='Team_All'>
                               <h4 className='teamHeading'>
-                                    New Atlantis Labs Team
+                                    New Atlantis Core Team and Operating Advisor
                               </h4>
                               <div className='T_row'>
-                                    <div className='Team_member_box'>
-                                          <div className='T_name'>Courtney Nichols Gould</div>
-                                          <img className='T_profile' src={cng}></img>
-                                          <div className='T_title'>Founder</div>
-                                          <div className='T_subtitle'>Causecast, NetCreations (acq, IPO)</div>
-                                    </div>
-                                    <div className='Team_member_box'>
-                                          <div className='T_name'>Justin Alanis</div>
-                                          <img className='T_profile' src={ja}></img>
-                                          <div className='T_title'>Story DAO, Seed Club</div>
-                                          <div className='T_subtitle'>4x Founder (acq)</div>
-                                    </div>
-                                    <div className='Team_member_box'>
-                                          <div className='T_name'>Ryan Scott</div>
-                                          <img className='T_profile' src={rs}></img>
-                                          <div className='T_title'>Story DAO, Seed Club</div>
-                                          <div className='T_subtitle'>4x Founder (acq)</div>
-                                    </div>
                                     <div className='Team_member_box'>
                                           <div className='T_name'>Gordon Gould</div>
                                           <img className='T_profile' src={gg}></img>
@@ -167,22 +151,28 @@ function App() {
                                           <div className='T_subtitle'>DeepChem ML core dev</div>
                                     </div>
                                     <div className='Team_member_box'>
+                                          <div className='T_name'>Courtney Nichols Gould</div>
+                                          <img className='T_profile' src={cng}></img>
+                                          <div className='T_title'>CoFounder & CoCEO</div>
+                                          <div className='T_subtitle'>SmartyPants (acq)</div>
+                                    </div>
+                                    <div className='Team_member_box'>
+                                          <div className='T_name'>Jayson Guttierez</div>
+                                          <img className='T_profile' src={jy}></img>
+                                          <div className='T_title'>Ecological Asset </div>
+                                          <div className='T_subtitle'>& Biocomplexity PhD</div>
+                                    </div>
+                                    <div className='Team_member_box'>
                                           <div className='T_name'>JJ Ramberg</div>
                                           <img className='T_profile' src={jj}></img>
-                                          <div className='T_title'>GoodPods</div>
-                                          <div className='T_subtitle'>MSNBC</div>
+                                          <div className='T_title'>GoodPods, MSNBC</div>
+                                          <div className='T_subtitle'>Host, Author</div>
                                     </div>
                                     <div className='Team_member_box'>
-                                          <div className='T_name'>Paul Nicklen</div>
-                                          <img className='T_profile' src={pn}></img>
-                                          <div className='T_title'>SeaLegacy, National</div>
-                                          <div className='T_subtitle'>Geographic</div>
-                                    </div>
-                                    <div className='Team_member_box'>
-                                          <div className='T_name'>Christina Mittermeier</div>
-                                          <img className='T_profile' src={cm}></img>
-                                          <div className='T_title'>SeaLegacy, SDG-14</div>
-                                          <div className='T_subtitle'>Ambassador</div>
+                                          <div className='T_name'>Ryan Scott</div>
+                                          <img className='T_profile' src={rs}></img>
+                                          <div className='T_title'>NetCreations (IPO),</div>
+                                          <div className='T_subtitle'>Causecast (acq)</div>
                                     </div>
                                     <div className='Team_member_box'>
                                           <div className='T_name'>Tom Lynch</div>
@@ -191,46 +181,34 @@ function App() {
                                           <div className='T_subtitle'>LabDAO contributor</div>
                                     </div>
                                     <div className='Team_member_box'>
-                                          <div className='T_name'>Jaygut</div>
-                                          <img className='T_profile' src={jy}></img>
-                                          <div className='T_title'>Ecological Asset & Biocomplexity Engineer</div>
-                                          {/* <div className='T_subtitle'>LabDAO contributor</div> */}
+                                          <div className='T_name'>Justin Alanis</div>
+                                          <img className='T_profile' src={ja}></img>
+                                          <div className='T_title'>Story DAO, Seed Club</div>
+                                          <div className='T_subtitle'>4x Founder (acq)</div>
                                     </div>
                               </div>
                               <h4 className='teamHeading'>
-                                    Advisors
+                                    Scientific and  Strategic Advisors
                               </h4>
 
                               <div className='T_row'>
                                     <div className='Team_member_box'>
-                                          <div className='T_name'>Maureen Raymo</div>
-                                          <img className='T_profile' src={mr}></img>
-                                          <div className='T_title'>Founding Dean</div>
-                                          <div className='T_subtitle'>Columbia University School of Climate</div>
+                                          <div className='T_name'>Christina Mittermeier</div>
+                                          <img className='T_profile' src={cm}></img>
+                                          <div className='T_title'>SeaLegacy, SDG-14</div>
+                                          <div className='T_subtitle'>Ambassador</div>
                                     </div>
                                     <div className='Team_member_box'>
                                           <div className='T_name'>Julie Pullen</div>
                                           <img className='T_profile' src={jp}></img>
-                                          <div className='T_title'>Climate Strategist</div>
-                                          <div className='T_subtitle'>Jupiter Intelligence</div>
+                                          <div className='T_title'>Oceanography & Climate Science,</div>
+                                          <div className='T_subtitle'>Columbia University</div>
                                     </div>
                                     <div className='Team_member_box'>
-                                          <div className='T_name'>Jess Sloss</div>
-                                          <img className='T_profile' src={js}></img>
-                                          <div className='T_title'>Lead Instigator</div>
-                                          <div className='T_subtitle'>Seed Club</div>
-                                    </div>
-                                    <div className='Team_member_box'>
-                                          <div className='T_name'>Brooke Wall</div>
-                                          <img className='T_profile' src={bw}></img>
-                                          <div className='T_title'>Founder</div>
-                                          <div className='T_subtitle'>The Wall Group</div>
-                                    </div>
-                                    <div className='Team_member_box'>
-                                          <div className='T_name'>Jeff Rosenthal</div>
-                                          <img className='T_profile' src={jr}></img>
-                                          <div className='T_title'>Founder</div>
-                                          <div className='T_subtitle'>Summit</div>
+                                          <div className='T_name'>Paul Nicklen</div>
+                                          <img className='T_profile' src={pn}></img>
+                                          <div className='T_title'>SeaLegacy, National</div>
+                                          <div className='T_subtitle'>Geographic</div>
                                     </div>
                                     <div className='Team_member_box'>
                                           <div className='T_name'>Paul Hawken</div>
@@ -239,17 +217,72 @@ function App() {
                                           <div className='T_subtitle'>Regeneration</div>
                                     </div>
                                     <div className='Team_member_box'>
+                                          <div className='T_name'>Octavio Aburto</div>
+                                          <img className='T_profile' src={oa}></img>
+                                          <div className='T_title'>Professor of Biological Oceanography</div>
+                                          <div className='T_subtitle'>Oceanography, Scripps</div>
+                                    </div>
+                                    <div className='Team_member_box'>
+                                          <div className='T_name'>Martin Wainstein</div>
+                                          <img className='T_profile' src={mw}></img>
+                                          <div className='T_title'>Executive Director</div>
+                                          <div className='T_subtitle'>Open Earth Foundation</div>
+                                    </div>
+                                    <div className='Team_member_box'>
+                                          <div className='T_name'>Jess Sloss</div>
+                                          <img className='T_profile' src={js}></img>
+                                          <div className='T_title'>Lead Instigator</div>
+                                          <div className='T_subtitle'>Seed Club</div>
+                                    </div>
+                                    <div className='Team_member_box'>
+                                          <div className='T_name'>Greg Landua</div>
+                                          <img className='T_profile' src={gl}></img>
+                                          <div className='T_title'>CEO</div>
+                                          <div className='T_subtitle'>Regen Network</div>
+                                    </div>
+                                    <div className='Team_member_box'>
+                                          <div className='T_name'>Evan Rapoport</div>
+                                          <img className='T_profile' src={er2}></img>
+                                          <div className='T_title'>Google X</div>
+                                          <div className='T_subtitle'>Google Brain</div>
+                                    </div>
+                                    <div className='Team_member_box'>
+                                          <div className='T_name'>Maureen Raymo</div>
+                                          <img className='T_profile' src={mr}></img>
+                                          <div className='T_title'>Founding Dean</div>
+                                          <div className='T_subtitle'>Columbia University School of Climate</div>
+                                    </div>
+                                    <div className='Team_member_box'>
+                                          <div className='T_name'>Ricard Sabatini</div>
+                                          <img className='T_profile' src={rs2}></img>
+                                          <div className='T_title'>Chief Data Scientist</div>
+                                          <div className='T_subtitle'>Orionis Biosciences</div>
+                                    </div>
+                                    <div className='Team_member_box'>
+                                          <div className='T_name'>Neil Spackman</div>
+                                          <img className='T_profile' src={ns}></img>
+                                          <div className='T_title'>CEO</div>
+                                          <div className='T_subtitle'>Regenerative Resources</div>
+                                    </div>
+                                    <div className='Team_member_box'>
+                                          <div className='T_name'>Jeff Rosenthal</div>
+                                          <img className='T_profile' src={jr}></img>
+                                          <div className='T_title'>Founder</div>
+                                          <div className='T_subtitle'>Summit</div>
+                                    </div>
+                                    {/* <div className='Team_member_box'>
                                           <div className='T_name'>Elizabeth Rogers</div>
                                           <img className='T_profile' src={er}></img>
                                           <div className='T_title'>Executive Producer</div>
                                           <div className='T_subtitle'>Film45</div>
-                                    </div>
+                                    </div> */}
                                     <div className='Team_member_box'>
-                                          <div className='T_name'>Octavio Aburto</div>
-                                          <img className='T_profile' src={oa}></img>
-                                          <div className='T_title'>Professor of Biological Oceanography</div>
-                                          <div className='T_subtitle'>Scripps</div>
+                                          <div className='T_name'>Brooke Wall</div>
+                                          <img className='T_profile' src={bw}></img>
+                                          <div className='T_title'>Founder</div>
+                                          <div className='T_subtitle'>The Wall Group</div>
                                     </div>
+                                    
                               </div>
 
                         </div>
@@ -272,55 +305,29 @@ function App() {
 
 
 
-                  <div className='Landing10'>
-
+                  {/* <div className='Landing10'>
                         <div id="L_10" className='L10_inner'>
-
-                              {/* <div style={{ fontSize: "80px", fontWeight: "300", marginBottom: "30px", padding: "30px" }}><span className='L10_h'>Highlighted news</span></div> */}
-
                               <h1 className='newsHeading' >Highlighted News</h1>
                               <div className='L10_inner_inner'>
-
                                     <div className='L10_block'>
                                           <div><img src={NewsPic} className="NewsPic" alt="NewsPic" /></div>
-
                                           <div className='L_10_text_1'><a className='L10_links' href='#'>New Atlantis Partners With The NEW To Bring Global Oceans Into The Digital Age</a></div>
-
                                           <div style={{ fontSize: "15px", fontWeight: "400", marginBottom: "30px", color: "black" }}>News-Jul 2022</div>
-
                                     </div>
-
-
-
                                     <div className='L10_block'>
                                           <div><img src={NewsPic} className="NewsPic" alt="NewsPic" /></div>
-
                                           <div style={{ fontSize: "27px", fontWeight: "600", marginBottom: "30px", width: "90%" }}><a className='L10_links' href='#'>New Atlantis Partners With The NEW To Bring Global Oceans Into The Digital Age</a></div>
-
                                           <div style={{ fontSize: "15px", fontWeight: "400", marginBottom: "30px", color: "black" }}>News-Jul 2022</div>
-
                                     </div>
-
-
-
                                     <div className='L10_block'>
                                           <div><img src={NewsPic} className="NewsPic" alt="NewsPic" /></div>
-
                                           <div style={{ fontSize: "27px", fontWeight: "600", marginBottom: "30px", width: "90%" }}><a className='L10_links' href='#'>New Atlantis Partners With The NEW To Bring Global Oceans Into The Digital Age</a></div>
-
                                           <div style={{ fontSize: "15px", fontWeight: "400", marginBottom: "30px", color: "black" }}>News-Jul 2022</div>
-
                                     </div>
-
                               </div>
-
-
                               <div style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}><button className='L9_Btn'>See all publications</button></div>
-
                         </div>
-
-
-                  </div>
+                  </div> */}
 
 
 
