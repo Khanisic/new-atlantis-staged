@@ -24,9 +24,9 @@ import rs from './assets/RS.png'
 import tl from './assets/TL.jpg'
 import jy from './assets/JY.jpg'
 
-import er2 from './assets/ER2.png'
-import gl from './assets/GL.png'
-import mw from './assets/MW.png'
+import er2 from './assets/ER2.jpg'
+import gl from './assets/LG.jpeg'
+import mw from './assets/MW.jpeg'
 import ns from './assets/NS.png'
 import rs2 from './assets/RS2.png'
 
@@ -56,11 +56,11 @@ function App() {
 
 
 
-                  <div className='Landing2'>
+                  {/* <div className='Landing2'>
 
                         <h2 className='BigText3'>We are researchers, scientists, and developers working to improve the world by restoring the ocean</h2>
 
-                  </div>
+                  </div> */}
 
                   {/* <Scroller /> */}
                   <div className='Landing3'>
@@ -69,7 +69,7 @@ function App() {
 
                   </div>
 
-
+{/* 
 
                   <div className='Landing4'>
 
@@ -84,7 +84,7 @@ function App() {
 
                         </div>
 
-                  </div>
+                  </div> */}
 
 
 
