@@ -40,17 +40,9 @@ function App() {
             <div className="App">
 
                   <div className='Landing1'>
-
                         <TheNav></TheNav>
-
                         <h1 className='BigText'>Open Platform for Ocean Biodiversity Regeneration</h1>
-
                         <h2 className='BigText2'>Science, Technology, and Financial Infrastructure <br /> to Restore Our Marine Environment</h2>
-
-
-
-
-
                   </div>
 
 
@@ -63,11 +55,9 @@ function App() {
                   </div> */}
 
                   {/* <Scroller /> */}
-                  <div className='Landing3'>
-
+                  {/* <div className='Landing3'>
                         <h2 className='BigText4'>New Atlantis uses <span style={{ color: "#4ec0fb" }}>advanced science, AI</span>, <span style={{ color: "#4ec0fb" }}>IoT</span>, <span style={{ color: "#4ec0fb" }}>NFTs</span> and <span style={{ color: "#4ec0fb" }}>crowdfunding</span> to protect and restore Marine Protected Areas.</h2>
-
-                  </div>
+                  </div> */}
 
 {/* 
 
@@ -129,10 +119,6 @@ function App() {
 
 
                   <div className='Landing9'>
-
-
-
-
                         <div className='Team_All'>
                               <h4 className='teamHeading'>
                                     New Atlantis Core Team and Operating Advisor
@@ -290,7 +276,7 @@ function App() {
 
                   </div>
 
-                  <div className='Landing92'>
+                  {/* <div className='Landing92'>
                         <div id="Join_9" className='L9_inner'>
                               <div>
                                     <h1 className='joinHeading' >Join the New Atlantis Mission</h1>
@@ -301,7 +287,7 @@ function App() {
 
                               </div>
                         </div>
-                  </div>
+                  </div> */}
 
 
 
@@ -335,11 +321,11 @@ function App() {
 
 
 
+{/* 
 
 
 
-
-                  <Footer></Footer>
+                  <Footer></Footer> */}
             </div>
       );
 }
