@@ -13,7 +13,7 @@
 
 .frameForm{
 
-width: 75%;
+width: 100%;
 border: none;
 
 margin-left: auto;
@@ -107,13 +107,6 @@ z-index: 10;
   background-color: #032f50;
   height: 100vh;
 }
-@media only screen and (max-width:786px) {
-  .BigText {
-    font-size: 58px;
-
-    margin-top: 82px;
-  }
-}
 
 .visitOurGithub {
   text-decoration: none;
@@ -136,14 +129,14 @@ z-index: 10;
 }
 
 /* .Landing4:hover{
-
+  
   box-shadow: rgba(0, 0, 0, 0.56) 300px 300px 1000px 500px;
 } */
 
 
 
 .BigText5 {
-
+  
   font-size: 70px;
   color: white;
   text-align: center;
@@ -154,24 +147,36 @@ z-index: 10;
 
 
 .BigText6 {
-
+  
   font-size: 35px;
   color: white;
   text-align: center;
   width: 80%;
   margin: 35px auto;
+  
+}
 
+
+@media only screen and (max-width: 1087px) and (min-width: 480px) {
+  .BigText {
+    font-size: 58px;
+    margin-top: 82px;
+  }
+}
+@media only screen and  (min-width: 1087px) {
+  .BigText {
+    font-size: 75px;
+
+    margin-top: 82px;
+  }
 }
 
 
 
 
-
-
-
 .BigText {
-
-  font-size: 75px;
+  
+  
   color: #4ec0fb;
   text-align: center;
   margin-top: 103px;
