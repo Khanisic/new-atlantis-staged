@@ -2,41 +2,62 @@
   scroll-behavior: smooth;
 }
 
-.Landing1 {
-
+.Landing1{
   background-image: url("BigBg.png");
   background-repeat: no-repeat;
   background-size: cover;
-
   background-color: #032f50;
-  height: 100vh;
+  height: 110vh;
+
+}
+
+.frameForm{
+
+width: 75%;
+border: none;
+
+margin-left: auto;
+margin-right: auto;
+
+border-radius: 30px;
+
+height: 100px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 10;
 
 
 }
 
 
+
 .Landing2 {
 
+  width: 95%;
+  
+  margin-left: auto;
+  margin-right: auto;
 
-  width: 100%;
 
-  display: flex;
-
-
-  align-items: center;
-  height: 100vh;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 
 .BigText3 {
 
-  font-size: 60px;
+  font-size: 35px;
   color: white;
   text-align: center;
   margin-top: 0px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+
+  margin-top: 35px;
+  margin-bottom: 35px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -55,7 +76,8 @@
   background-color: white;
   color: black;
 
-  height: 100vh;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 
@@ -85,7 +107,13 @@
   background-color: #032f50;
   height: 100vh;
 }
+@media only screen and (max-width:786px) {
+  .BigText {
+    font-size: 58px;
 
+    margin-top: 82px;
+  }
+}
 
 .visitOurGithub {
   text-decoration: none;
@@ -983,7 +1011,7 @@
 
 /* MOBILE RESPONSIVE!!*/
 
-.Landing92{
+.Landing92 {
   background: #fff;
   height: 100vh;
   display: flex;

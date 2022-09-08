@@ -38,12 +38,32 @@ import Scroller from './componets/Scroller.js';
 function App() {
       return (
             <div className="App">
-
-                  <div className='Landing1'>
+                  {/* <div className='Landing1'>
                         <TheNav></TheNav>
                         <h1 className='BigText'>Open Platform for Ocean Biodiversity Regeneration</h1>
                         <h2 className='BigText2'>Science, Technology, and Financial Infrastructure <br /> to Restore Our Marine Environment</h2>
                   </div>
+
+                  */}
+                  <div className='Landing1'>
+
+                        <TheNav></TheNav>
+
+                        <h1 className='BigText'>Open Platform for Ocean Biodiversity Regeneration</h1>
+
+                        <h2 className='BigText2'>Science, Technology, and Financial Infrastructure <br /> to Restore Our Marine Environment</h2>
+
+
+                        <div className='contain_contact_form'>
+
+                              <iframe className='frameForm' src="https://illustrious-torte-c01fa3.netlify.app/" ></iframe>
+                        </div>
+
+
+
+                  </div>
+
+
 
 
 
@@ -59,7 +79,7 @@ function App() {
                         <h2 className='BigText4'>New Atlantis uses <span style={{ color: "#4ec0fb" }}>advanced science, AI</span>, <span style={{ color: "#4ec0fb" }}>IoT</span>, <span style={{ color: "#4ec0fb" }}>NFTs</span> and <span style={{ color: "#4ec0fb" }}>crowdfunding</span> to protect and restore Marine Protected Areas.</h2>
                   </div> */}
 
-{/* 
+                  {/* 
 
                   <div className='Landing4'>
 
@@ -268,7 +288,7 @@ function App() {
                                           <div className='T_title'>Founder</div>
                                           <div className='T_subtitle'>The Wall Group</div>
                                     </div>
-                                    
+
                               </div>
 
                         </div>
@@ -321,7 +341,7 @@ function App() {
 
 
 
-{/* 
+                  {/* 
 
 
 
