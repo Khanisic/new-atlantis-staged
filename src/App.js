@@ -137,7 +137,7 @@ function App() {
 
 
 
-
+                  {/*
                   <div className='Landing9'>
                         <div className='Team_All'>
                               <h4 className='teamHeading'>
@@ -281,7 +281,7 @@ function App() {
                                           <img className='T_profile' src={er}></img>
                                           <div className='T_title'>Executive Producer</div>
                                           <div className='T_subtitle'>Film45</div>
-                                    </div> */}
+                                    </div>
                                     <div className='Team_member_box'>
                                           <div className='T_name'>Brooke Wall</div>
                                           <img className='T_profile' src={bw}></img>
@@ -295,7 +295,7 @@ function App() {
 
 
                   </div>
-
+ */}
                   {/* <div className='Landing92'>
                         <div id="Join_9" className='L9_inner'>
                               <div>
