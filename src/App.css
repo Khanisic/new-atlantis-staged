@@ -2,7 +2,7 @@
   scroll-behavior: smooth;
 }
 
-.Landing1{
+.Landing1 {
   background-image: url("BigBg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,22 +11,22 @@
 
 }
 
-.frameForm{
+.frameForm {
 
-width: 100%;
-border: none;
+  width: 100%;
+  border: none;
 
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 
-border-radius: 30px;
+  border-radius: 30px;
 
-height: 100px;
+  height: 100px;
 
-display: flex;
-justify-content: center;
-align-items: center;
-z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
 
 
 }
@@ -36,7 +36,7 @@ z-index: 10;
 .Landing2 {
 
   width: 95%;
-  
+
   margin-left: auto;
   margin-right: auto;
 
@@ -136,7 +136,7 @@ z-index: 10;
 
 
 .BigText5 {
-  
+
   font-size: 70px;
   color: white;
   text-align: center;
@@ -147,13 +147,13 @@ z-index: 10;
 
 
 .BigText6 {
-  
+
   font-size: 35px;
   color: white;
   text-align: center;
   width: 80%;
   margin: 35px auto;
-  
+
 }
 
 
@@ -163,7 +163,8 @@ z-index: 10;
     margin-top: 82px;
   }
 }
-@media only screen and  (min-width: 1087px) {
+
+@media only screen and (min-width: 1087px) {
   .BigText {
     font-size: 75px;
 
@@ -175,8 +176,8 @@ z-index: 10;
 
 
 .BigText {
-  
-  
+
+
   color: #4ec0fb;
   text-align: center;
   margin-top: 103px;
@@ -932,6 +933,12 @@ z-index: 10;
   font-size: 20px;
 }
 
+@media only screen and (max-width: 500px) {
+  .T_name {
+    font-size: 12px;
+  }
+}
+
 .T_title {
 
   padding: 3px;
@@ -986,7 +993,7 @@ z-index: 10;
 
 @media only screen and (max-width:500px) {
   .T_row {
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     justify-content: space-around;
   }
 }
@@ -1033,8 +1040,10 @@ z-index: 10;
 
 
   .BigText {
-
     font-size: 33px;
+    background-image: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: #b7e908;
   }
 
 
@@ -1330,7 +1339,7 @@ z-index: 10;
 
   .Team_member_box {
 
-    width: 150px;
+    width: 110px;
     height: 200px;
     text-align: center;
     margin-left: auto;
