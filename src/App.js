@@ -137,11 +137,11 @@ function App() {
 
 
 
-         
+
                   <div className='Landing9'>
                         <div className='Team_All'>
                               <h4 className='teamHeading'>
-                                    New Atlantis Core Team and Operating Advisor
+                                    New Atlantis Core Team and Operating Advisors
                               </h4>
                               <div className='T_row'>
                                     <div className='Team_member_box'>
@@ -276,7 +276,7 @@ function App() {
                                           <div className='T_title'>Founder</div>
                                           <div className='T_subtitle'>Summit</div>
                                     </div>
-                                  <div className='Team_member_box'>
+                                    <div className='Team_member_box'>
                                           <div className='T_name'>Elizabeth Rogers</div>
                                           <img className='T_profile' src={er}></img>
                                           <div className='T_title'>Executive Producer</div>
