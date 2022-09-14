@@ -145,6 +145,12 @@ function App() {
                               </h4>
                               <div className='T_row'>
                                     <div className='Team_member_box'>
+                                          <div className='T_name'>Courtney Nichols</div>
+                                          <img className='T_profile' src={cng}></img>
+                                          <div className='T_title'>CoFounder & CoCEO</div>
+                                          <div className='T_subtitle'>SmartyPants (acq)</div>
+                                    </div>
+                                    <div className='Team_member_box'>
                                           <div className='T_name'>Gordon Gould</div>
                                           <img className='T_profile' src={gg}></img>
                                           <div className='T_title'>CoFounder & CoCEO</div>
@@ -157,16 +163,10 @@ function App() {
                                           <div className='T_subtitle'>DeepChem ML core dev</div>
                                     </div>
                                     <div className='Team_member_box'>
-                                          <div className='T_name'>Courtney Nichols Gould</div>
-                                          <img className='T_profile' src={cng}></img>
-                                          <div className='T_title'>CoFounder & CoCEO</div>
-                                          <div className='T_subtitle'>SmartyPants (acq)</div>
-                                    </div>
-                                    <div className='Team_member_box'>
                                           <div className='T_name'>Jayson Guttierez</div>
                                           <img className='T_profile' src={jy}></img>
-                                          <div className='T_title'>Ecological Asset </div>
-                                          <div className='T_subtitle'>& Biocomplexity PhD</div>
+                                          <div className='T_title'>Ecological Asset &</div>
+                                          <div className='T_subtitle'>Biocomplexity PhD</div>
                                     </div>
                                     <div className='Team_member_box'>
                                           <div className='T_name'>JJ Ramberg</div>
@@ -259,13 +259,13 @@ function App() {
                                           <div className='T_subtitle'>Columbia University School of Climate</div>
                                     </div>
                                     <div className='Team_member_box'>
-                                          <div className='T_name'>Ricard Sabatini</div>
+                                          <div className='T_name'>Riccardo Sabatini</div>
                                           <img className='T_profile' src={rs2}></img>
                                           <div className='T_title'>Chief Data Scientist</div>
                                           <div className='T_subtitle'>Orionis Biosciences</div>
                                     </div>
                                     <div className='Team_member_box'>
-                                          <div className='T_name'>Neil Spackman</div>
+                                          <div className='T_name'>Neal Spackman</div>
                                           <img className='T_profile' src={ns}></img>
                                           <div className='T_title'>CEO</div>
                                           <div className='T_subtitle'>Regenerative Resources</div>
@@ -276,12 +276,12 @@ function App() {
                                           <div className='T_title'>Founder</div>
                                           <div className='T_subtitle'>Summit</div>
                                     </div>
-                                    <div className='Team_member_box'>
+                                    {/* <div className='Team_member_box'>
                                           <div className='T_name'>Elizabeth Rogers</div>
                                           <img className='T_profile' src={er}></img>
                                           <div className='T_title'>Executive Producer</div>
                                           <div className='T_subtitle'>Film45</div>
-                                    </div>
+                                    </div> */}
                                     <div className='Team_member_box'>
                                           <div className='T_name'>Brooke Wall</div>
                                           <img className='T_profile' src={bw}></img>
